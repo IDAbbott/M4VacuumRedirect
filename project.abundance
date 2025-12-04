@@ -270,12 +270,12 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 16,
-          "currentEquation": "16"
+          "ioValue": 14
         },
         {
           "name": "y length",
-          "ioValue": 20
+          "ioValue": 19,
+          "currentEquation": "19"
         }
       ]
     },
@@ -335,7 +335,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rectangle-16-20--15-2-0",
+            "geometry": "move-rectangle-14-19--15-2-0",
             "dimension": "2D",
             "plane": {
               "origin": [
