@@ -1672,8 +1672,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.11945701357466064,
-      "y": 0.75,
+      "x": 0.12171945701357467,
+      "y": 0.7458333333333333,
       "uniqueID": "id-7077",
       "ioValues": [
         {
@@ -1718,7 +1718,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 14
+          "ioValue": 12
         }
       ]
     },
@@ -1730,7 +1730,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 14
         },
         {
           "name": "yDist",
@@ -1744,8 +1744,8 @@
     },
     {
       "atomType": "Loft",
-      "x": 0.3389140271493213,
-      "y": 0.7229166666666667,
+      "x": 0.2936651583710407,
+      "y": 0.7625000000000001,
       "uniqueID": "id-7081",
       "ioValues": [
         {
@@ -1778,7 +1778,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rectangle-18-14-0-0-0",
+            "geometry": "move-rectangle-18-12-14-0-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -1811,13 +1811,13 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.4244343891402715,
-      "y": 0.6229166666666667,
+      "x": 0.49230769230769234,
+      "y": 0.6604166666666667,
       "uniqueID": "id-7102"
     },
     {
       "atomType": "Rotate",
-      "x": 0.4746606334841629,
+      "x": 0.579185520361991,
       "y": 0.7166666666666667,
       "uniqueID": "id-7106",
       "ioValues": [
@@ -1833,6 +1833,42 @@
         {
           "name": "z-axis degrees",
           "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.36425339366515835,
+      "y": 0.8041666666666667,
+      "uniqueID": "id-7112",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.4497737556561086,
+      "y": 0.8416666666666667,
+      "uniqueID": "id-7118",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
         }
       ]
     }
@@ -1894,6 +1930,11 @@
       "ap2ID": "id-7102"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-7072",
+      "ap2ID": "id-7118"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-7077",
       "ap2ID": "id-7078"
@@ -1914,14 +1955,24 @@
       "ap2ID": "id-7081"
     },
     {
-      "ap2Name": "geometry2",
+      "ap2Name": "geometry",
       "ap1ID": "id-7081",
-      "ap2ID": "id-7102"
+      "ap2ID": "id-7112"
     },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-7102",
       "ap2ID": "id-7106"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-7112",
+      "ap2ID": "id-7102"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-7112",
+      "ap2ID": "id-7118"
     }
   ],
   "unitsKey": "MM",
