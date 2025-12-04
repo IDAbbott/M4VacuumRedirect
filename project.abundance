@@ -1536,12 +1536,12 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 35,
-          "currentEquation": "35"
+          "ioValue": 45
         },
         {
           "name": "y length",
-          "ioValue": 20
+          "ioValue": 20,
+          "currentEquation": "20"
         }
       ]
     },
@@ -1611,7 +1611,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-rectangle-35-20-0-0-0",
+            "geometry": "move-rectangle-45-20-0-0-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -1677,7 +1677,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 33
+          "ioValue": 43
         },
         {
           "name": "y length",
@@ -1750,7 +1750,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-rectangle-33-18-1-1-0",
+            "geometry": "move-rectangle-43-18-1-1-0",
             "dimension": "2D",
             "plane": {
               "origin": [
