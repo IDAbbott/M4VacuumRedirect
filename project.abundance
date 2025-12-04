@@ -269,8 +269,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 14,
-          "currentEquation": "14"
+          "ioValue": 13
         },
         {
           "name": "y length",
@@ -335,7 +334,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rectangle-14-11--14-0-0",
+            "geometry": "move-rectangle-13-11--14-0-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -374,8 +373,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.5647058823529412,
-      "y": 0.675,
+      "x": 0.5420814479638009,
+      "y": 0.6416666666666666,
       "uniqueID": "id-7106",
       "ioValues": [
         {
@@ -669,6 +668,57 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.5131221719457013,
+      "y": 0.86875,
+      "uniqueID": "id-7213",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 12
+        },
+        {
+          "name": "y length",
+          "ioValue": 15,
+          "currentEquation": "15"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5819004524886878,
+      "y": 0.8895833333333334,
+      "uniqueID": "id-7217",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 20
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6452488687782806,
+      "y": 0.8875,
+      "uniqueID": "id-7221",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": -15,
+          "currentEquation": "-15"
+        },
+        {
+          "name": "yDist",
+          "ioValue": -60
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -851,6 +901,16 @@
       "ap2Name": "geometry1",
       "ap1ID": "id-7207",
       "ap2ID": "id-7165"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-7213",
+      "ap2ID": "id-7217"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-7217",
+      "ap2ID": "id-7221"
     }
   ],
   "unitsKey": "MM",
