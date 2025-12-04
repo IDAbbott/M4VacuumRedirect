@@ -55,14 +55,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4VacuumHoseFlat",
+          "ioValue": "M4VacuumRedirect",
           "currentEquation": "M4VacuumRedirect"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "M4VacuumHoseFlat"
+      "partName": "M4VacuumRedirect"
     },
     {
       "atomType": "Input",
@@ -1569,8 +1569,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.1081447963800905,
-      "y": 0.5645833333333333,
+      "x": 0.10633484162895929,
+      "y": 0.5625,
       "uniqueID": "id-7062",
       "ioValues": [
         {
@@ -1580,7 +1580,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 14
+          "ioValue": 16
         }
       ]
     },
@@ -1640,7 +1640,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rectangle-16-14-15-0-0",
+            "geometry": "move-rectangle-16-16-15-0-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -1696,7 +1696,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 1
+          "ioValue": 0
         },
         {
           "name": "yDist",
@@ -1753,7 +1753,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-rectangle-43-14-1-2-0",
+            "geometry": "move-rectangle-43-14-0-2-0",
             "dimension": "2D",
             "plane": {
               "origin": [
