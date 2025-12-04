@@ -1580,7 +1580,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 16
+          "ioValue": 14
         }
       ]
     },
@@ -1640,7 +1640,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rectangle-16-16-16-0-0",
+            "geometry": "move-rectangle-16-14-16-0-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -1673,8 +1673,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.1248868778280543,
-      "y": 0.7604166666666667,
+      "x": 0.12307692307692308,
+      "y": 0.7479166666666667,
       "uniqueID": "id-7077",
       "ioValues": [
         {
@@ -1684,19 +1684,19 @@
         },
         {
           "name": "y length",
-          "ioValue": 16
+          "ioValue": 14
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.22352941176470587,
-      "y": 0.7458333333333333,
+      "x": 0.22217194570135745,
+      "y": 0.73125,
       "uniqueID": "id-7078",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 1
+          "ioValue": 2
         },
         {
           "name": "yDist",
@@ -1710,29 +1710,30 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.11312217194570136,
-      "y": 0.9125000000000001,
+      "x": 0.11990950226244343,
+      "y": 0.9020833333333335,
       "uniqueID": "id-7079",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 14
+          "ioValue": 10
         },
         {
           "name": "y length",
-          "ioValue": 12
+          "ioValue": 10,
+          "currentEquation": "10"
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.2330316742081448,
-      "y": 0.88125,
+      "x": 0.20271493212669683,
+      "y": 0.9041666666666666,
       "uniqueID": "id-7080",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 16
+          "ioValue": 14
         },
         {
           "name": "yDist",
@@ -1746,14 +1747,14 @@
     },
     {
       "atomType": "Loft",
-      "x": 0.2936651583710407,
-      "y": 0.7625000000000001,
+      "x": 0.28868778280542984,
+      "y": 0.7791666666666667,
       "uniqueID": "id-7081",
       "ioValues": [
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-rectangle-43-16-1-1-0",
+            "geometry": "move-rectangle-43-14-2-1-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -1780,7 +1781,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rectangle-14-12-16-0-0",
+            "geometry": "move-rectangle-10-10-14-0-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -1820,7 +1821,7 @@
     {
       "atomType": "Rotate",
       "x": 0.579185520361991,
-      "y": 0.7166666666666667,
+      "y": 0.7041666666666667,
       "uniqueID": "id-7106",
       "ioValues": [
         {
