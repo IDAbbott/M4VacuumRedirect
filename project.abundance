@@ -1530,17 +1530,18 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.14886877828054298,
-      "y": 0.5125000000000001,
+      "x": 0.15248868778280542,
+      "y": 0.51875,
       "uniqueID": "id-7048",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 35
+          "ioValue": 35,
+          "currentEquation": "35"
         },
         {
           "name": "y length",
-          "ioValue": 20
+          "ioValue": 100
         }
       ]
     },
@@ -1564,15 +1565,17 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 50
+          "ioValue": 53
         },
         {
           "name": "yDist",
-          "ioValue": 40
+          "ioValue": 50,
+          "currentEquation": "50"
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     }
