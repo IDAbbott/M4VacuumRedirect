@@ -123,8 +123,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.07963800904977375,
-      "y": 0.6104166666666667,
+      "x": 0.07556561085972852,
+      "y": 0.6145833333333333,
       "uniqueID": "id-7062",
       "ioValues": [
         {
@@ -154,7 +154,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 150
+          "ioValue": 70
         }
       ]
     },
@@ -200,7 +200,7 @@
               "origin": [
                 0,
                 0,
-                150
+                70
               ],
               "xDir": [
                 1,
@@ -237,15 +237,14 @@
         },
         {
           "name": "y length",
-          "ioValue": 16,
-          "currentEquation": "16"
+          "ioValue": 13
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.22669683257918552,
-      "y": 0.7291666666666666,
+      "x": 0.22986425339366515,
+      "y": 0.7104166666666666,
       "uniqueID": "id-7078",
       "ioValues": [
         {
@@ -270,12 +269,12 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 14
+          "ioValue": 14,
+          "currentEquation": "14"
         },
         {
           "name": "y length",
-          "ioValue": 19,
-          "currentEquation": "19"
+          "ioValue": 14
         }
       ]
     },
@@ -295,7 +294,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 150
+          "ioValue": 70
         }
       ]
     },
@@ -308,7 +307,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-rectangle-43-16-0-2-0",
+            "geometry": "move-rectangle-43-13-0-2-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -335,13 +334,13 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rectangle-14-19--15-2-0",
+            "geometry": "move-rectangle-14-14--15-2-0",
             "dimension": "2D",
             "plane": {
               "origin": [
                 0,
                 0,
-                150
+                70
               ],
               "xDir": [
                 1,
@@ -368,8 +367,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.49230769230769234,
-      "y": 0.6604166666666667,
+      "x": 0.4904977375565611,
+      "y": 0.65625,
       "uniqueID": "id-7102"
     },
     {
