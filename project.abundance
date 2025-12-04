@@ -1530,18 +1530,18 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.0927601809954751,
-      "y": 0.32916666666666666,
+      "x": 0.08823529411764705,
+      "y": 0.3145833333333333,
       "uniqueID": "id-7048",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 45
+          "ioValue": 45,
+          "currentEquation": "45"
         },
         {
           "name": "y length",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 16
         }
       ]
     },
@@ -1574,23 +1574,24 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 20
+          "ioValue": 16,
+          "currentEquation": "16"
         },
         {
           "name": "y length",
-          "ioValue": 20
+          "ioValue": 16
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.20135746606334842,
-      "y": 0.5604166666666667,
+      "x": 0.1990950226244344,
+      "y": 0.55625,
       "uniqueID": "id-7066",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 16
         },
         {
           "name": "yDist",
@@ -1604,14 +1605,14 @@
     },
     {
       "atomType": "Loft",
-      "x": 0.318552036199095,
-      "y": 0.4854166666666667,
+      "x": 0.3235294117647059,
+      "y": 0.4916666666666667,
       "uniqueID": "id-7072",
       "ioValues": [
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-rectangle-45-20-0-0-0",
+            "geometry": "move-rectangle-45-16-0-0-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -1638,7 +1639,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rectangle-20-20-0-0-0",
+            "geometry": "move-rectangle-16-16-16-0-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -1717,7 +1718,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 18
+          "ioValue": 14
         }
       ]
     },
@@ -1777,7 +1778,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rectangle-18-18-0-0-0",
+            "geometry": "move-rectangle-18-14-0-0-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -1816,8 +1817,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.4710407239819005,
-      "y": 0.7333333333333334,
+      "x": 0.4746606334841629,
+      "y": 0.7166666666666667,
       "uniqueID": "id-7106",
       "ioValues": [
         {
