@@ -1530,8 +1530,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.09547511312217194,
-      "y": 0.3458333333333333,
+      "x": 0.0927601809954751,
+      "y": 0.32916666666666666,
       "uniqueID": "id-7048",
       "ioValues": [
         {
@@ -1713,7 +1713,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 18
         },
         {
           "name": "y length",
@@ -1777,7 +1777,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rectangle-10-18-0-0-0",
+            "geometry": "move-rectangle-18-18-0-0-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -1822,12 +1822,12 @@
       "ioValues": [
         {
           "name": "x-axis degrees",
-          "ioValue": 90
+          "ioValue": 90,
+          "currentEquation": "90"
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 90,
-          "currentEquation": "90"
+          "ioValue": 0
         },
         {
           "name": "z-axis degrees",
