@@ -13,6 +13,10 @@
     {
       "name": "Height",
       "ioValue": 20
+    },
+    {
+      "name": "Input (1)",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -79,8 +83,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.08099547511312218,
-      "y": 0.41875,
+      "x": 0.12262443438914028,
+      "y": 0.4354166666666667,
       "uniqueID": "id-7048",
       "ioValues": [
         {
@@ -232,7 +236,8 @@
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 16,
+          "currentEquation": "16"
         }
       ]
     },
@@ -258,17 +263,18 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.1248868778280543,
-      "y": 0.8958333333333334,
+      "x": 0.12126696832579184,
+      "y": 0.90625,
       "uniqueID": "id-7079",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 16,
+          "currentEquation": "16"
         },
         {
           "name": "y length",
-          "ioValue": 18
+          "ioValue": 20
         }
       ]
     },
@@ -301,7 +307,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-rectangle-43-10-0-2-0",
+            "geometry": "move-rectangle-43-16-0-2-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -328,7 +334,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rectangle-10-18--15-2-0",
+            "geometry": "move-rectangle-16-20--15-2-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -432,34 +438,39 @@
       "type": "number"
     },
     {
+      "atomType": "Rectangle",
+      "x": 0.1497737556561086,
+      "y": 0.11041666666666666,
+      "uniqueID": "id-7134",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 45
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.3384615384615385,
+      "uniqueID": "id-7142",
+      "name": "Input (1)",
+      "type": "number"
+    },
+    {
       "atomType": "Equation",
-      "x": 0.05520361990950226,
-      "y": 0.7604166666666667,
-      "uniqueID": "id-7126",
+      "x": 0.21131221719457013,
+      "y": 0.22916666666666669,
+      "uniqueID": "id-7145",
       "name": "x - y",
       "ioValues": [
         {
           "name": "x",
           "ioValue": 45
-        },
-        {
-          "name": "y",
-          "ioValue": 2,
-          "currentEquation": "2"
-        }
-      ],
-      "currentEquation": "x - y"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.058823529411764705,
-      "y": 0.9229166666666666,
-      "uniqueID": "id-7130",
-      "name": "x - y",
-      "ioValues": [
-        {
-          "name": "x",
-          "ioValue": 20
         },
         {
           "name": "y",
@@ -486,9 +497,14 @@
       "ap2ID": "id-7048"
     },
     {
+      "ap2Name": "x length",
+      "ap1ID": "id-4503",
+      "ap2ID": "id-7134"
+    },
+    {
       "ap2Name": "x",
       "ap1ID": "id-4503",
-      "ap2ID": "id-7126"
+      "ap2ID": "id-7145"
     },
     {
       "ap2Name": "geometry",
@@ -574,21 +590,6 @@
       "ap2Name": "y length",
       "ap1ID": "id-7123",
       "ap2ID": "id-7062"
-    },
-    {
-      "ap2Name": "x",
-      "ap1ID": "id-7123",
-      "ap2ID": "id-7130"
-    },
-    {
-      "ap2Name": "x length",
-      "ap1ID": "id-7126",
-      "ap2ID": "id-7077"
-    },
-    {
-      "ap2Name": "y length",
-      "ap1ID": "id-7130",
-      "ap2ID": "id-7079"
     }
   ],
   "unitsKey": "MM",
