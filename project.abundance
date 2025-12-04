@@ -1541,7 +1541,8 @@
         },
         {
           "name": "y length",
-          "ioValue": 16
+          "ioValue": 16,
+          "currentEquation": "16"
         }
       ]
     },
@@ -1672,17 +1673,18 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.12171945701357467,
-      "y": 0.7458333333333333,
+      "x": 0.1248868778280543,
+      "y": 0.7604166666666667,
       "uniqueID": "id-7077",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 43
+          "ioValue": 43,
+          "currentEquation": "43"
         },
         {
           "name": "y length",
-          "ioValue": 18
+          "ioValue": 16
         }
       ]
     },
@@ -1714,7 +1716,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 18
+          "ioValue": 14
         },
         {
           "name": "y length",
@@ -1724,13 +1726,13 @@
     },
     {
       "atomType": "Move",
-      "x": 0.2280542986425339,
-      "y": 0.90625,
+      "x": 0.2330316742081448,
+      "y": 0.88125,
       "uniqueID": "id-7080",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 14
+          "ioValue": 16
         },
         {
           "name": "yDist",
@@ -1751,7 +1753,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-rectangle-43-18-1-1-0",
+            "geometry": "move-rectangle-43-16-1-1-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -1778,7 +1780,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rectangle-18-12-14-0-0",
+            "geometry": "move-rectangle-14-12-16-0-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -1838,17 +1840,18 @@
     },
     {
       "atomType": "Move",
-      "x": 0.36425339366515835,
-      "y": 0.8041666666666667,
+      "x": 0.3710407239819004,
+      "y": 0.8895833333333334,
       "uniqueID": "id-7112",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 20
         },
         {
           "name": "zDist",
@@ -1960,14 +1963,14 @@
       "ap2ID": "id-7112"
     },
     {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-7081",
+      "ap2ID": "id-7102"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-7102",
       "ap2ID": "id-7106"
-    },
-    {
-      "ap2Name": "geometry2",
-      "ap1ID": "id-7112",
-      "ap2ID": "id-7102"
     },
     {
       "ap2Name": "Shape 2",
